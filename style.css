@@ -1,0 +1,31 @@
+.RegForm{
+    background-color: yellowgreen;
+    padding: 10px;
+    line-height: 155%;
+    color: black;
+    font-size: 20px;
+    width: 80%; height: 200px;
+    overflow: scroll;
+
+    text-align: center;
+}
+
+
+.RegInput{
+    width: 55%; height: auto;
+    font-size: 18px;
+    border-color: teal;
+    margin: 4px;
+    border-radius: 7px;
+    
+}
+
+.submitBTN{
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    
+
+}
