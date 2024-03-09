@@ -78,3 +78,53 @@
     width: 55px; height: auto;
     font-weight: 400;
 }
+
+
+@media only screen and (max-width: 700px) {
+    .galleryResponsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .galleryResponsive {
+      width: 100%;
+    }
+  }
+  
+
+  .galleryResponsive {
+    padding: 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+
+.gallery{
+    border: 2px solid red;
+    padding: 2px;
+    margin: 2px;
+}
+
+.galleryResponsive {
+    border: 1px solid #ff1111;
+}
+
+.galleryResponsive img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
